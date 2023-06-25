@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 150px 0; 
+}
+
+#rgb-color {
+  margin-top: 3rem;
+}
+
+#section-ball {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 5px;
+  border: 2px solid black;
+}
+
+.ball:hover {
+  border: 2px solid white;
+}
+
+#answer {
+  margin: 1rem;
+  font-size: 18px;
+}
+
+#reset-game {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 50px;
+}
